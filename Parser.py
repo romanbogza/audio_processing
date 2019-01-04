@@ -8,6 +8,7 @@ from os import listdir
 from os.path import isfile, join
 import os
 from scipy.fftpack import fft
+#Ading some random new things to this now
 
 
 def load_json(audio):

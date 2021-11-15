@@ -1,13 +1,11 @@
 import matplotlib.pyplot as plt
-import scipy
 from scipy import signal
 from scipy.io import wavfile
+from scipy.fftpack import fft
 import json
 from pydub import AudioSegment
-from os import listdir
 from os.path import isfile, join
-import os
-from scipy.fftpack import fft
+
 
 
 def load_json(audio):
